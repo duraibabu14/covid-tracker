@@ -1,0 +1,20 @@
+.epass {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.epass > img {
+  width: 20%;
+}
+
+.epass > a {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 99px;
+  background-color: green;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+}

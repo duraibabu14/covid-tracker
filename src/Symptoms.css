@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+
+.symptoms {
+  background-color: #295496;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  padding-left: 20px;
+  -webkit-box-shadow: 24px -12px 8px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 24px -12px 8px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 24px -12px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.symptoms > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-weight: 400;
+  font-family: "Piazzolla", serif;
+  font-size: xx-large;
+}
+.symptoms__info {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: large;
+  width: 100%;
+}
+.symptoms__points {
+  padding: 20px;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 800px;
+  font-weight: 200;
+  padding-left: 600px;
+}
+
+.symptoms__points > h4 {
+  font-weight: 600;
+}
+.symptoms__footer {
+  padding-top: 20px;
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  font-weight: 200;
+}
+
+.symptoms__drawer {
+  margin-top: 20px;
+}
